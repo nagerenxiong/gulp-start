@@ -1,0 +1,431 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>金十数据_实时行情</title>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/all.min.js"></script>
+<link rel="stylesheet" href="css/reset.min.css">
+<link rel="stylesheet" href="css/infor.min.css">
+</head>
+<body>
+<!--top-->
+<div class="top">
+	<h1 class="tp_left">
+    	<a href="javascript:;"><img src="images/logo.png" width="210" height="47"></a>
+    </h1>
+    <div class="tp_right">
+    	<input class="tp_enter" placeholder="请输入关键词">
+        <a class="tp_search" href="javascript:;"></a>
+    </div>
+</div>
+<!--nav-->
+<div class="nav">
+	<ul>
+        <li><a href="index.html">首页</a></li>
+    	<li><a href="strategy.html">独家策略</a></li> 
+    	<li><a href="infor.html">财经资讯</a></li>
+    	<li><a href="calendar.html">财经日历</a></li> 
+    	<li class="nv_bg2"><a href="javascript:;">实时行情</a></li>
+    </ul>
+</div>
+<!--market-->
+<h1 class="mt_topic">
+    <span>实时行情</span>
+</h1>
+<div class="market">
+    <dl class="mt_left">
+        <dt><a href="javascript:;">主要报价</a></dt>
+        <div class="mt_dd">
+            <dd><a href="javascript:;">大宗商品</a></dd>
+            <dd><a href="javascript:;">外汇报价</a></dd>
+            <dd><a href="javascript:;">全球股指</a></dd>    
+        </div>               
+    </dl>   
+    <div class="mt_dl">
+        <dl class="mt_right">
+            <dt>
+                <span>名称</span>
+                <span class="mt_bold">最新价</span>
+                <span class="mt_bold">涨跌</span>
+                <span class="mt_bold">涨跌幅</span>
+                <span>开盘价</span>
+                <span>最高</span>
+                <span>最低</span>
+                <span>昨收</span>
+                <span>更新时间</span>
+            </dt>
+            <dd>
+                <span title="黄金价格">黄金价格</span>
+                <span class="mt_bg" title="1244.63">1244.63</span>
+                <span class="mt_bg" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>
+            <dd>
+                <span title="上证指数">上证指数</span>
+                <span class="mt_bold" title="1244.63">1244.63</span>
+                <span class="mt_bold" title="+4.84">+4.84</span>
+                <span class="mt_bold" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>
+            <dd>
+                <span title="原油指数">原油指数</span>
+                <span class="mt_bold2" title="1244.63">1244.63</span>
+                <span class="mt_bold2" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="黄金价格">黄金价格</span>
+                <span class="mt_bg" title="1244.63">1244.63</span>
+                <span class="mt_bg" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>    
+            <dd>
+                <span title="原油指数">原油指数</span>
+                <span class="mt_bold2" title="1244.63">1244.63</span>
+                <span class="mt_bold2" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>   
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>               
+        </dl>
+        <dl class="mt_right">
+            <dt>
+                <span>名称</span>
+                <span class="mt_bold">最新价</span>
+                <span class="mt_bold">涨跌</span>
+                <span class="mt_bold">涨跌幅</span>
+                <span>开盘价</span>
+                <span>最高</span>
+                <span>最低</span>
+                <span>昨收</span>
+                <span>更新时间</span>
+            </dt>
+            <dd>
+                <span title="黄金价格">黄金价格</span>
+                <span class="mt_bg" title="2244.63">2244.63</span>
+                <span class="mt_bg" title="+5.84">+5.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>
+            <dd>
+                <span title="上证指数">上证指数</span>
+                <span class="mt_bold" title="1244.63">1244.63</span>
+                <span class="mt_bold" title="+4.84">+4.84</span>
+                <span class="mt_bold" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>
+            <dd>
+                <span title="原油指数">原油指数</span>
+                <span class="mt_bold2" title="1244.63">1244.63</span>
+                <span class="mt_bold2" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="黄金价格">黄金价格</span>
+                <span class="mt_bg" title="1244.63">1244.63</span>
+                <span class="mt_bg" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>    
+            <dd>
+                <span title="原油指数">原油指数</span>
+                <span class="mt_bold2" title="1244.63">1244.63</span>
+                <span class="mt_bold2" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>   
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>               
+        </dl>
+        <dl class="mt_right">
+            <dt>
+                <span>名称</span>
+                <span class="mt_bold">最新价</span>
+                <span class="mt_bold">涨跌</span>
+                <span class="mt_bold">涨跌幅</span>
+                <span>开盘价</span>
+                <span>最高</span>
+                <span>最低</span>
+                <span>昨收</span>
+                <span>更新时间</span>
+            </dt>
+            <dd>
+                <span title="黄金价格">黄金价格</span>
+                <span class="mt_bg" title="3244.63">3244.63</span>
+                <span class="mt_bg" title="+6.84">+6.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>
+            <dd>
+                <span title="上证指数">上证指数</span>
+                <span class="mt_bold" title="1244.63">1244.63</span>
+                <span class="mt_bold" title="+4.84">+4.84</span>
+                <span class="mt_bold" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>
+            <dd>
+                <span title="原油指数">原油指数</span>
+                <span class="mt_bold2" title="1244.63">1244.63</span>
+                <span class="mt_bold2" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="黄金价格">黄金价格</span>
+                <span class="mt_bg" title="1244.63">1244.63</span>
+                <span class="mt_bg" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>    
+            <dd>
+                <span title="原油指数">原油指数</span>
+                <span class="mt_bold2" title="1244.63">1244.63</span>
+                <span class="mt_bold2" title="+4.84">+4.84</span>
+                <span class="mt_bold2" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>   
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd> 
+            <dd>
+                <span title="布伦特原油">布伦特原油</span>
+                <span class="mt_bold3" title="1244.63">1244.63</span>
+                <span class="mt_bold3" title="+4.84">+4.84</span>
+                <span class="mt_bold3" title="+0.39%">+0.39%</span>
+                <span title="1239.75">1239.75</span>
+                <span title="1247.90">1247.90</span>
+                <span title="1239.57">1239.57</span>
+                <span title="1239.79">1239.79</span>
+                <span title="9:07:32">9:07:32</span>
+            </dd>               
+        </dl>               
+    </div>
+</div>
+<hr style="height:1px;background-color:#dcdcdc;margin-bottom:24px;">
+<!--footer-->
+<div class="footer">
+	<ul>
+    	<li><a href="javascript:;">关于我们</a></li>
+    	<li><a href="javascript:;">联系我们</a></li>
+    	<li><a href="javascript:;">免责声明</a></li>
+    	<li><a href="javascript:;">意见反馈</a></li>
+    	<li><a href="javascript:;">网站地图</a></li>
+    </ul>
+    <p>Copyright &copy; 2001-2015 金十数据 DYHJW.com All Rights Reserved | 沪ICP备15014470号- 12 </p>
+    <span class="fr_safe"></span>
+</div>
+</body>
+</html>
